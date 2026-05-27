@@ -1,0 +1,7 @@
+title = "Product Security Lab Gitleaks Config"
+
+[[rules]]
+id = "training-fake-secret"
+description = "Training-only fake secret pattern for Product Security lab"
+regex = '''TRAINING_SECRET_[A-Z0-9]{16,}'''
+keywords = ["TRAINING_SECRET_"]
