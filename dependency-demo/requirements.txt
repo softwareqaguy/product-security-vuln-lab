@@ -1,7 +1,7 @@
 # TRAINING ONLY - intentionally old dependencies for SCA practice.
 # Do not install or use these in a real application.
 
-requests==2.19.1
+requests==2.34.2
 jinja2==2.10
 flask==0.12.2
 urllib3==1.24.1
